@@ -1,60 +1,19 @@
-# p5.js Template
+**1**
+*Since this is the first time I've written a code that has its own different design, I'm a little clueless. After trying to search for some examples online on the first day, I seem to have some ideas*
 
-This is a README file that can be used to describe and document your assignment.
+![example1](https://imgpile.com/images/DP0zvG.jpg)
+![example2](https://imgpile.com/images/DP0VUa.jpg)
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+*So I started with the size of the canvas I wanted to make, considered the background color I wanted to use and what kind of pattern and color I wanted to generate with mouse control*
 
----
----
+[![idea sketch.jpg](https://imgpile.com/images/DPBdES.jpg)]
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+My final idea is a 1000*1700 canvas with a beige background, every time the mouse clicks on the screen, rectangles of different sizes and colors with no stroke will appear,as every time a rectangle appears, a thin line of a certain thickness will be drawn randomly from the top to the end of the canvas
 
-**bold text**
+![first version](https://imgpile.com/images/DPBcb4.png)
 
-*italicized text*
+I think the black lines are ugly, I'm going to switch to white and would like to adjust the thickness. And I'd like to set the rgb color range a bit instead of 0-255, but I set it to nostroke itself, I don't know why the rect() I drew still has stroke, so I'll change this one too
 
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+**2**
+It's really amazing, I just wanted to try a random range of colors but I didn't expect the results to come out that I'm particularly happy with!So my second attempt become my final version！
+but I thought 1000*1700 shows too long so I changed the canvas.
